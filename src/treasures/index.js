@@ -15,16 +15,16 @@ const treasuresList = [
     isFirst: true,
     type: "direct",
     id: 2,
-    imgUrl: "",
+    imgUrl: "./assets/hand.webp",
   },
   {
-    name: "闪避斗篷",
-    desc: "受到攻击时有20%几率闪避该次攻击",
+    name: "螺类化石",
+    desc: "阻止你在每场战斗中第一次受到的生命值损伤。",
     lucky: 0,
     isFirst: true,
     type: "direct",
     id: 3,
-    imgUrl: "",
+    imgUrl: "./assets/Helix.webp",
   },
 ];
 
