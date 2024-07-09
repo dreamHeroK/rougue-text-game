@@ -6,7 +6,7 @@ const treasuresList = [
     isFirst: true,
     type: "direct",
     id: 1,
-    imgUrl: "",
+    imgUrl: "./assets/new.webp",
   },
   {
     name: "血腥之手",
@@ -27,3 +27,5 @@ const treasuresList = [
     imgUrl: "",
   },
 ];
+
+export default treasuresList;
