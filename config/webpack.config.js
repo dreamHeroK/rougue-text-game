@@ -548,7 +548,7 @@ module.exports = function (webpackEnv) {
             // stylus 配置
             {
               test:stylusRegex,
-              exclude:sassModuleRegex,
+              exclude:stylusModuleRegex,
               use: getStyleLoaders(
                 {
                   importLoaders: 3,
